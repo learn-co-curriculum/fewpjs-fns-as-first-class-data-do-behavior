@@ -1,5 +1,8 @@
 function greet(time) {
+  time = time.split(':')[0]
+  time = parseInt(time, 10)
   var greet;
+
 
   if (time < 12) {
       greet = 'Good Morning';
@@ -10,7 +13,7 @@ function greet(time) {
   } else {
     greet = 'Hello';
   }
-  document.getElementById("greeting").innerHTML = greet;
   return greet;
+  document.getElementById("greeting").innerHTML = greet;
 }
 
