@@ -2,11 +2,13 @@
 
 ## Learning Goals
 
-- Create a "First-Class" function
+- Create a JavaScript function triggered by an event
 
 ## Introduction
 
-(Talk about first class functions again with a basic example)
+In review, functions in JavaScript are first-class data. They are treated
+like any other variable and we can pass them as values to other functions.
+In this lab, we're going to demonstrate some of JavaScript's capabilities.
 
 ## Create a "First-Class" Function
 
@@ -36,4 +38,7 @@ and the `parseInt()` [functions](https://developer.mozilla.org/en-US/docs/Web/Ja
 
 ## Conclusion
 
-## Resources
+This lab demonstrates just the tip of the iceberg when it comes to leveraging
+the power of JavaScript functions. There are heaps features that JavaScript has
+— some are even comparable to Ruby and other programming languages. We'll be
+exploring more on JavaScript events in the next lesson.
